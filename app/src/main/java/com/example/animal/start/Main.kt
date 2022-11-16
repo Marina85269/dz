@@ -17,5 +17,4 @@ fun main (){
 
     arrayHerbivorousAnimal.forEach { println(it.view + " usually living " + it.range) }
     arrayPredatorAnimals.forEach{println(it.info(it.view))}
-
 }
